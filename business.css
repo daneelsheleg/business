@@ -1,3 +1,7 @@
+body{
+	max-width: 100%;
+    margin: 0 auto;
+}
 text{
 	outline:none
 }
@@ -47,11 +51,19 @@ a {
     font-weight: normal;
     src: url(font/OpenSans.woff) format('woff');
     }
+.div-two{
+		max-width: 1170px;
+    margin: 0 auto;
+}
+.div{
+		max-width: 1400px;
+    margin: 0 auto;
+}
 .src{
 	margin-top:15px;
 	padding-bottom:10px
 }
-.src1{
+.src-one{
 	margin-top:15px;
 	padding-bottom:10px
 }
@@ -60,6 +72,8 @@ a {
     background:white;
     display: flex;
     flex-direction: row;
+	max-width: 1170px;
+    margin: 0 auto;
 }
 .nav{
     padding-top: 30px;
@@ -79,7 +93,7 @@ a {
 .nav-item:hover{
 background: #FFBB42;
 }
-.block0{
+.block-zero{
     background: #709DCA;
     height: 580px;
 	margin-bottom:250px;
@@ -95,9 +109,13 @@ background: #FFBB42;
     line-height: 1px;
 	
 }
+
 .block-in-block{
     display: flex;
 	flex-direction: row;
+		max-width: 1400px;
+    margin: 0 auto;
+	
 }
 .loren{
     text-align: center;
@@ -105,19 +123,18 @@ background: #FFBB42;
     line-height: 20px;
     color:#ECF1F7;
  font-family: 'Open Sans', sans-serif;
-}
-.mini-block1{
+}	
+.mini-block-one{
 	margin-left:170px;
     margin-top: 35px;
     height: 50px;
     width: 250px;
 }
-.mini-block2, .mini-block3{
-    
-    margin-top: 35px;
-    margin-left: 20px;
+.mini-block-two, .mini-block-three{
     height: 50px;
     width: 250px;
+	 margin-top: 35px;
+    margin-left: 20px;
 }
 .user{
 	color:#6E6E6E;
@@ -157,10 +174,13 @@ background: #FFBB42;
 	cursor:pointer;
 }
 #img{
+	max-width: 1200px;
+    margin: 0 auto;
 padding-left:25%;
 padding-top:70px;
+
 }
-.circle0{
+.circle-zero{
 		padding-left:620px;
 		display:flex;
 		flex:direction;
@@ -170,7 +190,7 @@ padding-top:70px;
 	flex-direction:row;
 
 }
-.circle1, .circle2, .circle3{
+.circle-one, .circle-two, .circle-three{
 	height:15px;
 	width:15px;
 	background-color:white;
@@ -181,7 +201,7 @@ padding-top:70px;
 	border:solid;
 	border-color:#E0E1E2;
 }
-.circle1:hover , .circle2:hover , .circle3:hover{
+.circle-one:hover , .circle-two:hover , .circle-three:hover{
 	border-color:#7FCEEC;
 }
 .OurandLoren{
@@ -198,12 +218,12 @@ padding-top:70px;
 	color:#636F73;
 	 font-family: 'Open Sans',  sans-serif;
 }
-.blockone, .blocktwo{
+.block-one, .block-two{
 display:flex;
 flex-direction:column;
 margin-top:30px
 }
-.blockone{
+.block-one{
 margin-right:50px;
 padding-left:70px
 }
@@ -213,7 +233,7 @@ padding-left:70px
 	margin-top:40px
 
 }
-.container1{
+.container-one{
 	display:flex;
 	flex-direction:row;
 margin-top:40px
@@ -235,7 +255,7 @@ margin-top:40px
 	font-size:50px;
 	cursor: pointer;
  }
-#line1{
+#line-first{
     border-bottom: 6px dotted white;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -252,10 +272,10 @@ margin-top:40px
 	font-size:13px;
 	line-height:25px
 }
- .icons3{
+ .icons-three{
 	 margin-left:30px
  }
-.icons, .icons2, .icons4, .icons5{
+.icons, .icons-two, .icons-four, .icons-five{
 	margin-left:40px;
 }
 .bitcoin{
@@ -267,20 +287,15 @@ margin-left:60px;
 .clock, .renren, .setting, .rocket{
 	margin-left:50px;
 }
-
-
-
 .background{
 	margin-top:150px;
 	height:468px;
 	background-color:#FFC155;
 }
-
-.src1{
+.src-one{
 		display:flex;
 	flex-direction:row;
 }
-
 .aboutus{
 	line-height:60px;
 	font-weight:bold;
@@ -288,7 +303,6 @@ margin-left:60px;
 	text-transform:uppercase;
 	font-size:30px;
 }
-	
 .about{
 	font-family: 'Open Sans', sans-serif;
 		display:flex;
@@ -312,7 +326,7 @@ margin-left:60px;
 .a:hover{
 	background:#4DA9FF
 }
-.background2{
+.background-two{
 	margin-top:0px;
 	background-color:#E7EDF3;
 	height:650px;
@@ -321,7 +335,7 @@ margin-left:60px;
 	padding-top:70px;
 	font-family: 'Gotham Black', sans-serif;
 }
-.block1, .block2, .block3{
+.Block-one, .Block-two, .Block-three{
 	border:1px solid #CCD5DF;
 	height:360px;
 	width:250px;
@@ -329,8 +343,6 @@ margin-left:60px;
 	margin-top:70px;
 	border-radius:1%
 }
-
-
 .text-align{
 	text-align:center;
 		padding-bottom: 120px;
@@ -340,11 +352,11 @@ margin-left:60px;
 	flex-direction:row;
 	margin-left:300px
 }
-.lineOne{
+.line-one{
 	border-bottom:2px solid #818B95;
 	margin:10px 25px 10px 25px;
 }
-.block1:hover,.block2:hover,.block3:hover {
+.Block-one:hover,.Block-two:hover,.Block-three:hover {
 	padding-top:20px;
 	height:380px;
 	width:250px;
@@ -377,19 +389,19 @@ margin-left:60px;
 .plan, .per, .account{
 	color:#818B95
 }
-.block1:hover .account,  .block2:hover .account,  .block3:hover .account{
+.Block-one:hover .account,  .Block-two:hover .account,  .Block-three:hover .account{
 	color:#8EB8E2
 }
-.block1:hover .per,.block1:hover .money::before, .block1:hover .plan, .block1:hover .money {
+.Block-one:hover .per,.Block-one:hover .money::before, .Block-one:hover .plan, .Block-one:hover .money {
 	color:white
 }
-.block2:hover .per,.block2:hover .money::before, .block2:hover .plan, .block2:hover .money {
+.Block-two:hover .per,.Block-two:hover .money::before, .Block-two:hover .plan, .Block-two:hover .money {
 	color:white
 }
-.block3:hover .per,.block3:hover .money::before, .block3:hover .plan, .block3:hover .money{
+.Block-three:hover .per,.Block-three:hover .money::before, .Block-three:hover .plan, .Block-three:hover .money{
 	color:white
 }
-.block1:hover .lineOne, .block2:hover .lineOne, .block3:hover .lineOne{
+.Block-one:hover .line-one, .Block-two:hover .line-one, .Block-three:hover .line-one{
 border-bottom:2px solid #8EB8E2;
 }
 .account{
@@ -399,7 +411,7 @@ border-bottom:2px solid #8EB8E2;
 	font-size:13px;
 }
 
-.per, .per2{
+.per{
 	font-family: 'Lato Light', sans-serif;
 	margin-bottom:20px;
 	text-transform:uppercase;
@@ -434,7 +446,7 @@ border-bottom:2px solid #8EB8E2;
 	text-align: center ;
 	padding-bottom: 20px;
 }
-.HowOne{
+.How-one{
 	padding-bottom:10px;
 		font-family: 'Gotham Black', sans-serif;
 	text-transform: uppercase;
@@ -444,7 +456,7 @@ border-bottom:2px solid #8EB8E2;
 
 
 }
-.HowTwo{
+.How-two{
 		font-family: 'Lato Light', sans-serif;
 	font-size:18px;
 	line-height: 40px;
@@ -455,29 +467,29 @@ border-bottom:2px solid #8EB8E2;
 	flex-direction: row;
 	padding-left:200px;
 }
-.lock, .lockOne{		
+.lock, .lock-one{		
 	margin-bottom:100px;
 	font-size: 100px;
 	color:white;
 	-webkit-text-stroke:2px #729FCB;
 }
-.lock:hover, .lockOne:hover{
+.lock:hover, .lock-one:hover{
 	color:#4DA9FF
 }
 .lock{
 	margin-right:200px;
 }
-.lockOne{
+.lock-one{
 	margin-right:180px;
 }
-.stepOne{
+.step-one{
 	margin-right:200px
 }
-.stepTwo, .stepThree{
+.step-two, .step-three{
 	margin-right:210px
 }
 
-.stepOne, .stepTwo, .stepThree, .stepFour{
+.step-one, .step-two, .step-three, .step-four{
 		font-family: 'Lato Bold', sans-serif;
 	font-size: 24px;
 	text-transform: uppercase;
@@ -500,15 +512,15 @@ border-bottom:2px solid #8EB8E2;
 	line-height:20px;
 	color:#7B7B7B
 }
-.indOne{
+.ind-one{
 	padding-right:10px;
 	
 }
-.indTwo{
+.ind-two{
 	padding-right:50px;
 	padding-left:px;
 }
-.indThree{
+.ind-three{
 	padding-right:50px;
 	padding-left:20px
 }
@@ -531,18 +543,18 @@ border-bottom:2px solid #8EB8E2;
 .start:hover{
 	background-color:#4DA9FF
 }
-.httpOne, .httpTwo, .httpThree{
+.http-one, .http-two, .http-three{
 position: absolute ;
 }
-.httpTwo{
+.http-two{
 	padding-left:860px;
 	padding-top:100px
 }
-.httpOne{
+.http-one{
 	padding-top:100px;
 	padding-left:300px;
 }
-.httpThree{
+.http-three{
 	margin-top:-120px;
 	padding-left:600px;
 }
@@ -557,21 +569,21 @@ position: absolute ;
 	color:white;
 	padding-bottom:25px
 }
-.clientOne{
+.client-one{
 	font-family: 'Gotham Black', sans-serif;
 	font-size:30px;
 	text-transform:uppercase;
 	font-weight:bold;
 
 }
-.clientTwo{
+.client-two{
 	font-family: 'Open Sans', sans-serif;
 	font-size:18px;
 }
 .obzats{
 	padding-left:125px
 }
-.WhiteBlockOne, .WhiteBlockTwo{
+.WhiteBlock-one, .WhiteBlock-two{
 	display:flex;
 	flex-direction:row;
 }
@@ -586,7 +598,7 @@ position: absolute ;
 }
 .foto{
 	margin-top:25px;
-	margin-left:15pxж
+	margin-left:15px;
 	
 }
 .textLorem{
@@ -619,13 +631,13 @@ color:#7B7B7B;
 .news{
 	text-align:center;
 }
-#newsOne{
+#news-one{
 	font-family: 'Gotham Black', sans-serif;
 	text-transform:uppercase;
 	font-weight:bold;
 	font-size:30px;
 }
-#newsTwo{	
+#news-two{	
 	font-family: 'Lato Light', sans-serif;
 	margin-bottom:60px
 }
@@ -635,15 +647,15 @@ color:#7B7B7B;
 	display:flex;
 	flex-direction:row
 }
-.inputOne{
+.input-one{
 	font-family: 'Open Sans', sans-serif;
 	width:300px;
 }
-.inputTwo{
+.input-two{
 	font-family: 'Open Sans', sans-serif;
 	width:350px;
 }
-.inputThree{
+.input-three{
 	font-family: 'Lato Regular', sans-serif;
 	width:250px;
 	height:50px;
@@ -653,11 +665,11 @@ color:#7B7B7B;
 	color:white;
 	cursor:pointer;
 }
-.inputThree:hover{
+.input-three:hover{
 	background-color:#4DA9FF;
 	color:white
 }
-.inputTwo, .inputOne{
+.input-two, .input-one{
 	margin-right:10px;
 	text-transform:capitalize;
 	border-radius:4px;
@@ -706,19 +718,17 @@ color:#7B7B7B;
 	padding-top:70px;
 	padding-bottom:25px
 }
-.addressOne{
+.address-one{
 	font-family: 'Open Sans', sans-serif;
 	color:#A8B1B4;
 	font-size:15px;
 	line-height:25px
 }
-.addressOne:hover{
+.address-one:hover{
 	color:#FFBB42
 }
-.srcOne{
-	margin-left:505px
-}
-.menu-Two{
+
+.menu-two{
 	font-family: 'Open Sans', sans-serif;
 	display:flex;
 	flex-direction:row;
@@ -768,23 +778,26 @@ color:#7B7B7B;
 	padding-top:20px;
 	background-color:#709DCA
 }
-.covOne:after,.covTwo:after{
+.cov-one:after,.cov-two:after{
 	font-family: 'BrandonGrotesque-Bold';
 	font-size:28px;
 	position: absolute;
 	font-weight: bold;
 }
-.covOne:after{
+.cov-one:after{
 	content:"\201C";
 }
-.covTwo:after{
+.cov-two:after{
 	content:"\201D"
 }
-.covOne{
+.cov-one{
 	margin-left: -20px
 }
-.covTwo{
+.cov-two{
 	margin-left: 190px;
 	margin-top: -18px;
 	margin-bottom: 30px
+}
+.src-two{
+	margin-left:45%
 }
